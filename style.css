@@ -1,0 +1,146 @@
+
+body 
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #EEE4B1;
+}
+
+.container 
+{   margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #c3ba8d,
+              -13px -13px 20px #b7af89; 
+}
+
+.content 
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button 
+{
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #c3ba8d;
+}
+
+.row button:hover 
+{
+    box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                 inset -5px -5px 8px #c3ba8d;
+    background: #c3ba8d;
+}
+
+.display #screen 
+{
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+
+#eval 
+{
+    background: #8C6A5D;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #8C6A5D,
+                inset -5px -5px 8px #8C6A5D;
+}
+
+#eval:hover 
+{
+    box-shadow: inset 5px 5px 8px #6b574f,
+                inset -5px -5px 8px #6e5a52;
+}
+
+#ac 
+{
+    background: #5F374B;
+    color: #fff;
+}
+
+#ac:hover 
+{
+    box-shadow: inset 5px 5px 8px #633d4f,
+                inset -5px -5px 8px #643e51;
+}
+
+#ce 
+{
+    background: #430A5D;
+    color: #fff;
+}
+
+#ce:hover 
+{
+      box-shadow: inset 5px 5px 8px #46125e,
+                  inset -5px -5px 8px #46115f;
+}
+
+/*================= Heading Css =================*/
+h2
+
+{
+    font-size: 40px;
+    position: relative;  
+    bottom: 1em; 
+    margin-left: 1.2em;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #c3ba8d,
+                    1px 1px 2px #c3ba8d,
+                    3px 3px 3px #c3ba8d,
+                    4px 4px 4px #c3ba8d,
+                    5px 5px 5px #c3ba8d, 
+                    6px 6px 6px #c3ba8d,
+                    7px 7px 7px #c3ba8d,
+                    8px 8px 8px #c3ba8d;
+                    letter-spacing: 6px;
+}
+
+h2 span
+{
+color: #5F374B;
+font-size: 45px;
+text-shadow: 1px 1px 1px #c3ba8d,
+                1px 1px 2px #c3ba8d,
+                3px 3px 3px #c3ba8d,
+                4px 4px 4px #c3ba8d,
+                5px 5px 5px #c3ba8d, 
+                6px 6px 6px #c3ba8d ;    
+}
+
+h2 .fa
+{
+    position: absolute; 
+    top: 1.5em;
+    color: #191b1c;
+}
